@@ -5,5 +5,5 @@
 4.创建自己的环境并安装相关的包
   mumba create -n 环境名称 所需的包（例如：mamba create -n enviroment python=3.10 numpy pandas gym）
   如果遇到不能安装的包。单独安装（第一步 mamba activate enviroment 第二步 mamba install 所需的包）
-5.mamba env create -f environment.yml
-  此时可能显示缺失cuda 直接安装即可 mamba install cuda
+5.此时可能显示缺失cuda 直接安装即可 mamba install cuda
+6.安装环境的cuda和pytorch（两者匹配 pytorch2.4.0对应cuda11.8）去cuda官网下载 有现成安装命令
