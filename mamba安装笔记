@@ -1,3 +1,9 @@
 1.下载bash文件（mamba官网）
 2.base处理.ch文件
   bash Miniconda3-latest-Linux-x86_64.sh
+3.mamba env list可显示安装后的系统环境
+4.创建自己的环境并安装相关的包
+  mumba create -n 环境名称 所需的包（例如：mamba create -n enviroment python=3.10 numpy pandas gym）
+  如果遇到不能安装的包。单独安装（第一步 mamba activate enviroment 第二步 mamba install 所需的包）
+5.mamba env create -f environment.yml
+  此时可能显示缺失cuda 直接安装即可 mamba install cuda
