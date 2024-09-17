@@ -1,0 +1,7 @@
+LCM（Lightweight Communications and Marshalling：轻量级通信与数据封送库）通信与ROS传统通信（TCP/UDP）区别：更快速
+                                                 能够实现python与C++的相互通信（作为彼此的publisher和receiver）
+                                                 订阅发布模型三要素：工作节点（node） 消息（message） 主题（topic）
+mlp(Multilayer Percerptron:多层感知机)神经网络也算是一种人工神经网络（Artificial Neuro Netiwork）算法，此类算法通常应用于解决估计、分类、决策等一系列问题
+                           也就是可以理解成将n个神经元f（ax+b）函数累加输出成模型
+                           MLP 由输入层、隐藏层与输出层组成
+                           优化算法：梯度下降/反向传播
